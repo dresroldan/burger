@@ -2,7 +2,7 @@
 
  ## Description:
   Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
-  ![Eat-Da-Burger App](/public/assets/img/eatdaburgerapp.png)
+
   
  ## Installation:
   No installation required. App is hosted through Heroku.
