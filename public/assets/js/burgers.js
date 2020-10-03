@@ -55,6 +55,8 @@ $(document).ready(function() {
 
         $(".delete-burger").on("click", function(event) {
             console.log("button works!");
+
+
             var id = $(this).data("id");
 
             // Send the DELETE request.
