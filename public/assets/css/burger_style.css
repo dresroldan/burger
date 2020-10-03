@@ -13,6 +13,11 @@ h2 {
     text-decoration: underline;
 }
 
+h3 {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 button {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -29,7 +34,7 @@ ul {
 }
 
 #top-bar {
-    margin-top: 28px;
+    margin-top: 60px;
 }
 
 #burger-created {
