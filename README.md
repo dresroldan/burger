@@ -2,16 +2,12 @@
 
  ## Description:
   Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
-<<<<<<< HEAD
-    ![Eat-Da-Burger App](/public/assets/img/eatdaburgerapp.png)
-=======
 
   
->>>>>>> 1552807371ae95f58f17f7c803b51834db2fe955
  ## Installation:
   No installation required. App is hosted through Heroku.
   
-
+  ![Eat-Da-Burger App](/public/assets/img/eatdaburgerapp.png)
   ## Usage:
   Whenever a user submits a burger's name, the app will display the burger on the left side of the page in the burgers created area. Each burger created also has a 'Devour it!' and 'Delete button'. When the user clicks the 'Devour it!' button, the burger will move to the right side of the page in the devoured area. When the user clicks the 'Delete button' the burger will be removed. Devoured burgers will also have a 'Delete' button for removal. 
   ## Contribution
