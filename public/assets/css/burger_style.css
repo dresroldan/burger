@@ -1,3 +1,54 @@
 body {
     background-color: #fc6;
 }
+
+h1 {
+    color: #f30;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+button {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 15%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#top-bar {
+    margin-top: 28px;
+}
+
+#burger-created {
+    margin-top: 60px;
+    justify-content: center;
+}
+
+#burgerInput {
+    margin-top: 50px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 990px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 990px;
+    }
+}

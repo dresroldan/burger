@@ -1,42 +1,66 @@
-<h1>Eat-Da-Burger!</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center" id="top-bar">
+      <img src="/assets/img/burgerimg.png" alt="burger" />
+      <h1> Eat-Da-Burger! </h1>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center" id="burger-created">
+      <h2>burgers created!</h2>
+
+      <ul>
+        {{#each burgers}}
+        {{#unless devoured}}
+        {{>burger-block devoured=true}}
+        {{/unless}}
+        {{/each}}
+      </ul>
+
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center" id="burger-created">
+      <h2>burgers devoured!</h2>
+
+      <ul>
+        {{#each burgers}}
+        {{#if devoured}}
+        {{> burger-block devoured=false}}
+        {{/if}}
+        {{/each}}
+      </ul>
+
+    </div>
+
+  </div>
+</div>
 
 
 
-<h2>burgers created!</h2>
-
-<ul>
-  {{#each burgers}}
-
-   {{!-- {{this.burger_name}} --}}
-    {{#unless devoured}}  
-      {{>burger-block devoured=true}}
-{{/unless}}
-{{/each}}
-  </ul>
-
-
-
-<h2>burgers devoured!</h2>
-
-<ul>
-{{#each burgers}}
-    {{#if devoured}}
-      {{> burger-block devoured=false}}
-    {{/if}}
-  {{/each}}
-</ul>
-
-
-
-
-<form class="create-form" id="burgerInput">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center enter_section">
+      <form class="create-form" id="burgerInput">
 
         <div class="form-group">
-            <label for="ca"></label>
-            <input type="text" id="ca" name="burger_name"> 
+          <label for="ca"></label>
+          <input type="text" id="ca" name="burger_name">
         </div>
 
         <button type="submit">submit</button>
-   </form>    
+      </form>
 
-  
+    </div>
+  </div>
+</div>
