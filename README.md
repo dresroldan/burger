@@ -6,7 +6,7 @@
 ![Eat-Da-Burger App](/public/assets/img/eatdaburgerapp.png)
  
  ## Installation:
-  No installation required. App is hosted through Heroku.
+  No installation required. App is hosted through Heroku.<br>
   https://enigmatic-forest-96111.herokuapp.com/
  
   ## Usage:
