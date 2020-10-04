@@ -7,7 +7,7 @@
  
  ## Installation:
   No installation required. App is hosted through Heroku.
-  
+  https://enigmatic-forest-96111.herokuapp.com/
  
   ## Usage:
   Whenever a user submits a burger's name, the app will display the burger on the left side of the page in the burgers created area. Each burger created also has a 'Devour it!' and 'Delete button'. When the user clicks the 'Devour it!' button, the burger will move to the right side of the page in the devoured area. When the user clicks the 'Delete button' the burger will be removed. Devoured burgers will also have a 'Delete' button for removal. 
